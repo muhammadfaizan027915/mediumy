@@ -1,8 +1,7 @@
 import Head from "next/head";
 import Hero from "@/components/hreo/hero";
-import Heading from "@/components/heading/heading";
 import Container from "@/components/container/container";
-import Postcard from "@/components/postcard/postcard";
+import Featuredposts from "@/components/posts/featuredposts";
 
 export default function Home() {
   return (
@@ -15,12 +14,7 @@ export default function Home() {
       </Head>
       <Container>
         <Hero />
-
-        <Heading heading="Recent Posts" />
-
-        <div>
-          <Postcard column />
-        </div>
+        <Featuredposts column heading="Recent Posts"  />
       </Container>
     </>
   );

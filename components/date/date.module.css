@@ -1,4 +1,5 @@
 .postdate{
     color: var(--darkgray);
+    font-size: 0.8rem;
     font-weight: 300;
 }

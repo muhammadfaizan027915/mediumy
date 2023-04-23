@@ -5,20 +5,22 @@ import Date from "../date/date";
 import style from "./author.module.css";
 
 export default function Author({ author, postTime }) {
+  const { name, image } = author || {};
   return (
     <div className={`flex align-center ${style.authorcontainer}`}>
-      {/* Avatar Image */}
       <div className={style.avatarcontainer}>
         <Link href="/author">
-          <Image src="/images/avatar.jpg" fill />
+          <Image
+            src={image ? image : "/images/avatar.jpg"}
+            alt="author"
+            fill
+            priority={true}
+          />
         </Link>
       </div>
       <div className={style.authorname}>
         <p>
-          <Link href="/author">
-            {/* {author.name} */}
-            Muhammad Faizan
-          </Link>
+          <Link href="/author">{name}</Link>
         </p>
         <Date postTime={postTime} />
       </div>

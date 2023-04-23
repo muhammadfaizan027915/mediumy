@@ -5,7 +5,7 @@ import Author from "../author/author";
 import style from "./postcard.module.css";
 
 export default function Postcard({ column, postInfo }) {
-  const { author, postTime } = postInfo | {};
+  const { author, title, description, coverImage, postTime } = postInfo || {};
   return (
     <div
       className={
@@ -16,23 +16,15 @@ export default function Postcard({ column, postInfo }) {
     >
       <div className={`${style.imagecontainer}`}>
         <Link href={"/posts"}>
-          <Image
-            src={
-              "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-            }
-            fill
-          />
+          <Image src={coverImage} fill alt="post cover image" priority={true}/>
         </Link>
       </div>
       <div className={`flex spacebetween ${style.detailcontainer}`}>
         <div className={style.detail}>
           <h1>
-            <Link href="/posts">We are living some starage times</Link>
+            <Link href="/posts">{title}</Link>
           </h1>
-          <p>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </p>
+          <p>{description}</p>
         </div>
 
         <Author author={author} postTime={postTime} />

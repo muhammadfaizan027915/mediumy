@@ -12,8 +12,8 @@
   overflow: hidden;
 }
 
-.authorname{
-  height: 30px;
+.authorname>p:first-child{
+  margin-bottom: 0.2rem;
 }
 
 .authorname > p:first-child {

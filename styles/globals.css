@@ -10,7 +10,9 @@
   --text-color: #1f1f1f;
 }
 
-*{
+*, 
+*::before, 
+*::after{
   padding: 0px;
   margin: 0px;
 }
@@ -47,6 +49,7 @@ ul{
   list-style: none;
 }
 
+/* Flex Styling */
 .flex {
   display: flex;
 }

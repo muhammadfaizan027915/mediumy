@@ -1,6 +1,5 @@
 /* Styling the card */
 
-
 /* Styling horizontal card */
 
 .cardlayout {
@@ -40,13 +39,19 @@
 .detailcontainer .detail > p {
   color: var(--darkgray);
   margin-bottom: 1rem;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 /* Media Queries */
 
 @media screen and (min-width: 600px) {
-  .card, .colcard {
-    width: 50%;
+  .card,
+  .colcard {
+    width: calc(50% - 0.7rem);
   }
 }
 
@@ -56,17 +61,17 @@
     height: 250px;
   }
 
-  .colcard{
-    width: 33%;
+  .colcard {
+    width: calc(33% - 0.8rem);
   }
 
-  .colcard .imagecontainer, 
-  .colcard .detailcontainer{
+  .colcard .imagecontainer,
+  .colcard .detailcontainer {
     width: auto;
   }
 
-  .card .imagecontainer, 
-  .card .detailcontainer{
+  .card .imagecontainer,
+  .card .detailcontainer {
     height: auto;
   }
 

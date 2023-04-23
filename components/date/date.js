@@ -3,11 +3,13 @@ import { parseISO, format } from "date-fns";
 import style from "./date.module.css";
 
 export default function Date({ postTime }) {
-  const { dateString, readTime } = postTime | {};
-  const date = parseISO(dateString);
+  const { date, readTime } = postTime || {};
+  const dateISO = parseISO(date);
+
+  console.log(dateISO)
   return (
     <p className={style.postdate}>
-      <time dateTime={dateString}>{/* {format(date, "LLLL d, yyyy")} */}</time>
+      <time dateTime={date}>{format(dateISO, "dd LLLL , yyyy")}</time>
       <span>{` . ${readTime} min read`}</span>
     </p>
   );
