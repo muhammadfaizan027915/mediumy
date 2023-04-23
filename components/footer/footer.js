@@ -15,7 +15,7 @@ export default function Footer() {
         </div>
         <div className={style.copyright}>
           <p>
-            Copyright &copy; <Link href="/">mediumsh.com</Link>
+            Copyright &copy; <Link href="/">mediumy.com</Link>
           </p>
         </div>
       </div>
