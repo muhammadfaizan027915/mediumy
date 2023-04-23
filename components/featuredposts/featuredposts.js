@@ -4,9 +4,9 @@ import Postcard from "../postcard/postcard";
 import {posts} from "../../locale/posts"
 import style from "./featuredposts.module.css";
 
-export default function Featuredposts({ count, column, heading }) {
+export default function Featuredposts({ count, containerClassName, column, heading }) {
   return (
-    <section>
+    <section className={containerClassName}>
       <Heading heading={heading} />
       <div className={`flex ${style.ftPostsContainer}`}>
         {posts.length && posts.map((post) => (

@@ -39,7 +39,7 @@
 .detailcontainer .detail > p {
   color: var(--darkgray);
   margin-bottom: 1rem;
-
+  font-weight: 300;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;

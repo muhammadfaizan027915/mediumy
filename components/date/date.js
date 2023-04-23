@@ -5,8 +5,6 @@ import style from "./date.module.css";
 export default function Date({ postTime }) {
   const { date, readTime } = postTime || {};
   const dateISO = parseISO(date);
-
-  console.log(dateISO)
   return (
     <p className={style.postdate}>
       <time dateTime={date}>{format(dateISO, "dd LLLL , yyyy")}</time>
