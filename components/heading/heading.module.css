@@ -1,0 +1,14 @@
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    border-bottom: 1px solid var(--gray);
+    margin-bottom: 1rem;
+}
+
+.heading>span{
+    display: inline-block;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--black);
+    margin-bottom: -1px;
+}
+

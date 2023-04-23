@@ -1,0 +1,21 @@
+.authorcontainer {
+  gap: 0.5rem;
+  position: relative;
+  bottom: -0px;
+}
+
+.avatarcontainer {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.authorname{
+  height: 30px;
+}
+
+.authorname > p:first-child {
+  font-size: 0.7rem;
+}

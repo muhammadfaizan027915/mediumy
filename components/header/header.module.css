@@ -1,0 +1,15 @@
+/* Styling the header */
+.header{
+  position: sticky;
+  top: 0px;
+}
+
+.navHeader {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--gray);
+  background-color: var(--white);
+}
+
+.linkcontainer{
+  gap: 2.5rem;
+}

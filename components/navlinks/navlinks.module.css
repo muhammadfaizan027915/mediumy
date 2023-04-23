@@ -1,0 +1,18 @@
+/* Styling the links */
+
+.navlinks {
+  gap: 2rem;
+}
+
+.navlinks a {
+  width: 3rem;
+  color: gray;
+  text-align: center;
+  display: inline-block;
+}
+
+.navlinks a:active,
+.navlinks a:hover {
+  color: var(--black);
+  font-weight: bold;
+}

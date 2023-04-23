@@ -1,0 +1,15 @@
+/* styling the Hero section */
+.hero {
+  padding: 2.7rem 0;
+}
+
+.hero > h1 {
+  font-size: 3rem;
+  font-family: var(--times);
+  padding-bottom: 0.9rem;
+}
+
+.hero > span {
+  font-weight: 300;
+  font-size: 0.96rem;
+}

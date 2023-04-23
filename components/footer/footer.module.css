@@ -1,0 +1,42 @@
+.footer {
+  border-top: 1px solid var(--gray);
+  background-color: var(--lightgray);
+  padding: 0 1rem ;
+}
+
+.footer .footleft {
+  flex-grow: 1;
+}
+
+.linksgap {
+  gap: 3rem;
+  margin: 0;
+}
+
+.copyright {
+  display: none;
+}
+
+.devmark p {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 786px) {
+  .copyright {
+    display: block;
+  }
+  .linksgap {
+    margin-right: 25%;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .footercontainer{
+    padding: 0px;
+  }
+
+  .footer{
+    padding: 0 5%;
+  }
+}
