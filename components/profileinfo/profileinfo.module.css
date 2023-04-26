@@ -1,0 +1,70 @@
+/* 
+Styling the profile information  
+*/
+
+/******************* 
+Styling the container 
+********************/
+.profileContainer {
+  flex-flow: column nowrap;
+}
+
+.profileUser > h1 {
+  font-family: var(--times);
+}
+
+/*************** 
+Styling the tags 
+***************/
+.experienceTags {
+  gap: 0.6rem;
+  margin-top: 0.17rem;
+}
+
+.experienceTags span {
+  background-color: var(--lightgray);
+  border: 1px solid var(--gray);
+  border-radius: 0.17rem;
+  color: var(--darkgray);
+  padding: 0.1rem 0.3rem;
+  font-size: 0.7rem;
+}
+
+/*************** 
+Styling location 
+***************/
+.currentPosition {
+  margin-top: 1.2rem;
+}
+
+.companyLocation {
+  font-size: 0.75rem;
+  color: var(--darkgray);
+  margin-top: 0.3rem;
+}
+
+.companyLocation span {
+  font-size: 0.85rem;
+  color: var(--black);
+}
+
+
+/* Styling buttons */
+.postsAndPosts{
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.postsAndPosts div{
+  flex-direction: column;
+  border: 1px solid var(--gray);
+  display: inline-block;
+  text-align: center;
+  width: calc(32% - 1rem);
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+
+.postsAndPosts div>p{
+  font-size: 0.7rem;
+}

@@ -1,0 +1,8 @@
+.profileimage {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 3px 15px var(--gray);
+}
