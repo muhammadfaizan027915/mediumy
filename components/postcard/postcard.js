@@ -4,22 +4,30 @@ import Image from "next/image";
 import Author from "../author/author";
 import style from "./postcard.module.css";
 
-export default function Postcard({ column, postInfo }) {
+export default function Postcard({
+  column,
+  postInfo,
+  cardClass,
+  imgageClass,
+  contentClass,
+}) {
   const { author, title, description, coverImage, postTime } = postInfo || {};
   return (
     <div
       className={
         column
-          ? `flex ${style.colcard} ${style.cardlayout}`
-          : `flex ${style.card} ${style.cardlayout}`
+          ? `flex ${style.colcard} ${cardClass} ${style.cardlayout}`
+          : `flex ${style.card} ${cardClass} ${style.cardlayout}`
       }
     >
-      <div className={`${style.imagecontainer}`}>
+      <div className={`${style.imagecontainer} ${imgageClass}`}>
         <Link href={"/posts"}>
-          <Image src={coverImage} fill alt="post cover image" priority={true}/>
+          <Image src={coverImage} fill alt="post cover image" priority={true} />
         </Link>
       </div>
-      <div className={`flex spacebetween ${style.detailcontainer}`}>
+      <div
+        className={`flex spacebetween ${style.detailcontainer} ${contentClass}`}
+      >
         <div className={style.detail}>
           <h1>
             <Link href="/posts">{title}</Link>
