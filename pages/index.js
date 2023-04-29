@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Hero from "@/components/hreo/hero";
 import Container from "@/components/container/container";
 import Featuredposts from "@/components/featuredposts/featuredposts";

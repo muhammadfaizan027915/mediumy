@@ -1,7 +1,9 @@
 import React from "react";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
-import Date from "../date/date";
+
+const Date = dynamic(() => import('../date/date'))
 import style from "./author.module.css";
 
 export default function Author({ author, postTime }) {

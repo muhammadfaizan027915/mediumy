@@ -40,7 +40,7 @@ Styling location
 .companyLocation {
   font-size: 0.75rem;
   color: var(--darkgray);
-  margin-top: 0.3rem;
+  margin-top: 0.6rem;
 }
 
 .companyLocation span {
@@ -48,23 +48,39 @@ Styling location
   color: var(--black);
 }
 
-
-/* Styling buttons */
-.postsAndPosts{
+/**************
+Styling buttons 
+***************/
+.postsAndPosts {
   width: 100%;
   margin-top: 1.5rem;
 }
 
-.postsAndPosts div{
+.postsAndPosts div {
   flex-direction: column;
   border: 1px solid var(--gray);
-  display: inline-block;
+  display: inline-flex;
   text-align: center;
   width: calc(32% - 1rem);
+  height: 20px;
   padding: 0.8rem;
   font-size: 1rem;
 }
 
-.postsAndPosts div>p{
+.postsAndPosts div > p {
   font-size: 0.7rem;
+}
+
+.postsAndPosts div > a {
+  display: block;
+  width: 100%;
+  font-size: 0.85rem;
+}
+
+.callButton {
+  background-color: var(--black);
+}
+
+.callButton a {
+  color: var(--white);
 }

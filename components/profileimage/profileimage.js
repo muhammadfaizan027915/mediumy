@@ -7,7 +7,7 @@ export default function Profileimage({ image, imgContainerClass }) {
     <div className={imgContainerClass}>
       <div className={style.profileimage}>
         <Image
-          src={image ? image : "/images/avatar.jpg"}
+          src={image ? image : "/images/avatar.png"}
           alt="author"
           fill
           priority={true}

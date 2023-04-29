@@ -1,0 +1,28 @@
+.profileSection {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+.imageContiner {
+  width: 32%;
+}
+
+.infoContainer {
+  width: 68%;
+}
+
+@media screen and (max-width: 450px) {
+  .profileSection {
+    flex-flow: column nowrap;
+  }
+
+  .imageContiner,
+  .infoContainer {
+    width: 100%;
+  }
+
+  .imageContiner {
+    justify-content: flex-start;
+  }
+}

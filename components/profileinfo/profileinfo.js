@@ -26,16 +26,16 @@ export default function Profileinfo({ profileInfo, infoContainerClass }) {
       </div>
 
       <div className={`flex ${style.postsAndPosts}`}>
-        <div className={`flex align-center`}>
+        <div className="align-center center">
           <strong>440</strong>
           <p>Posts</p>
         </div>
-        <div className={`flex align-center`}>
+        <div className="align-center center">
           <strong>3M</strong>
           <p>Views</p>
         </div>
-        <div className={`flex align-center center`}>
-          <a href="tell:03175659371 ">Call Now</a>
+        <div className={`${style.callButton} align-center center`}>
+          <a href="mailto:muhmmadfaizan027915@gmail.com">Email</a>
         </div>
       </div>
     </div>
