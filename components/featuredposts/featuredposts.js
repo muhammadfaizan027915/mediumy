@@ -1,5 +1,5 @@
 import React from "react";
-import Heading from "../heading/heading";
+import Heading from "../../common/heading/heading";
 import Postcard from "../postcard/postcard";
 import {posts} from "../../locale/posts"
 import style from "./featuredposts.module.css";

@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Logo from "../logo/logo";
 import Navlinks from "../navlinks/navlinks";
-import Container from "../container/container";
+import Container from "../../common/container/container";
 import style from "./footer.module.css";
 
 export default function Footer() {

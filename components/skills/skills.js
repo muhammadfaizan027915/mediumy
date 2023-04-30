@@ -1,17 +1,17 @@
 import React from "react";
 import Skill from "../skill/skill";
 import { skills } from "@/locale/skills";
-import style from './skills.module.css'
+import Commonlist from "../../common/commonlist/commonlist";
+import Infocontainer from "../infocontainer/infocontainer";
 
 export default function Skills() {
   return (
-    <div className={`authorInfoContainer ${style.skillsContainer}`}>
-      <h2 className="authorInfoHeading">Skills</h2>
-      <ul>
+    <Infocontainer heading="Skills">
+      <Commonlist>
         {skills.map(({ skill, percentage }, index) => (
-          <Skill skill={skill} percentage={percentage} key={index}/>
+          <Skill skill={skill} percentage={percentage} key={index} />
         ))}
-      </ul>
-    </div>
+      </Commonlist>
+    </Infocontainer>
   );
 }
