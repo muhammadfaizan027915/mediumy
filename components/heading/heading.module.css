@@ -1,5 +1,5 @@
 .heading{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--times);
     font-size: 1.8rem;
     border-bottom: 1px solid var(--gray);
     margin-bottom: 1rem;

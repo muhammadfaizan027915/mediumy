@@ -1,0 +1,13 @@
+.skillsContainer{
+    width: 32%;
+    padding: 1rem;
+    border: 1px solid var(--gray);
+    margin-bottom: 1.5rem;
+}
+
+.skillsContainer h2{
+    font-family: var(--times);
+    margin-bottom: 1rem;
+
+}
+
