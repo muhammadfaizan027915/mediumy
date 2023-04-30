@@ -1,57 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-:root{
+:root {
   --black: #1f1f1f;
   --white: #ffffff;
   --darkgray: #707070;
   --gray: #e4e4e4;
   --lightgray: #f5f5f5;
-  --times: 'Times New Roman', Times, serif;
+  --times: "Times New Roman", Times, serif;
   --text-color: #1f1f1f;
 }
 
-*, 
-*::before, 
-*::after{
+*,
+*::before,
+*::after {
   padding: 0px;
   margin: 0px;
 }
 
-body{
+body {
   font-size: 0.875rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--text-color);
 }
 
 /* Making heading 0 margin and padding */
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6, 
-nav{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
   margin: 0px;
   padding: 0px;
 }
 
 /* Making links decoration free */
-a:link, 
-a:active, 
-a:hover, 
+a:link,
+a:active,
+a:hover,
 a:visited {
   text-decoration: none;
   color: var(--text-color);
 }
 
 /* Making lists decoration free */
-ul{
+ul {
   list-style: none;
 }
 
 /* Flex Styling */
 .flex {
   display: flex;
+}
+
+.flex-column{
+  flex-flow: column nowrap;
 }
 
 .spacebetween {
@@ -62,6 +66,18 @@ ul{
   justify-content: center;
 }
 
-.align-center{
+.align-center {
   align-items: center;
+}
+
+/* Author's Details Page Global Styling */
+.authorInfoContainer {
+  padding: 1rem;
+  border: 1px solid var(--gray);
+  margin-bottom: 1rem;
+  width: calc(100%-1rem);
+}
+
+.authorInfoHeading {
+  font-family: var(--times);
 }

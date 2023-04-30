@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+  .splitContainer {
+    flex-flow: column nowrap;
+    gap: 0px !important;
+  }
+
+  .leftPane,
+  .rightPane {
+    flex-grow: 1 !important;
+  }
+}

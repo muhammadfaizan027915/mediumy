@@ -71,16 +71,17 @@ Styling buttons
   font-size: 0.7rem;
 }
 
-.postsAndPosts div > a {
-  display: block;
-  width: 100%;
-  font-size: 0.85rem;
+.postsAndPosts div:last-child{
+  border-color: var(--black);
 }
 
-.callButton {
+.emailButton {
   background-color: var(--black);
 }
 
-.callButton a {
+.emailButton a {
   color: var(--white);
+  display: block;
+  width: 100%;
+  font-size: 0.85rem;
 }

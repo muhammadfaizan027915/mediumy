@@ -18,7 +18,7 @@ export default function Profileinfo({ profileInfo, infoContainerClass }) {
               MERN Stack Developer at <strong>Devsic</strong>
             </p>
             <p className={`flex align-center ${style.companyLocation}`}>
-              <span class="material-symbols-outlined">location_on</span>
+              <span className="material-symbols-outlined">location_on</span>
               102 China Rd, I-10/3, Islamabad, Pakistan
             </p>
           </div>
@@ -34,7 +34,7 @@ export default function Profileinfo({ profileInfo, infoContainerClass }) {
           <strong>3M</strong>
           <p>Views</p>
         </div>
-        <div className={`${style.callButton} align-center center`}>
+        <div className={`${style.emailButton} align-center center`}>
           <a href="mailto:muhmmadfaizan027915@gmail.com">Email</a>
         </div>
       </div>

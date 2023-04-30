@@ -1,0 +1,29 @@
+.bioHead {
+  margin-bottom: 0.8rem;
+  justify-content: space-between;
+}
+
+.bioHead span {
+  padding: 0.4rem 0.5rem;
+  font-size: smaller;
+  font-weight: 500;
+  color: var(--darkgray);
+  border-radius: 5px;
+  border: 1px solid var(--gray);
+}
+
+.authorBio {
+  color: var(--darkgray);
+  line-height: 1.25rem;
+}
+
+@media screen and (max-width: 400px) {
+  .bioHead {
+    align-items: flex-start;
+    flex-flow: column nowrap;
+  }
+
+  .bioHead span{
+    margin-top: 0.2rem;
+  }
+}

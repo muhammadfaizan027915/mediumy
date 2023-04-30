@@ -5,11 +5,11 @@ import style from './skills.module.css'
 
 export default function Skills() {
   return (
-    <div className={style.skillsContainer}>
-      <h2>Skills</h2>
+    <div className={`authorInfoContainer ${style.skillsContainer}`}>
+      <h2 className="authorInfoHeading">Skills</h2>
       <ul>
-        {skills.map(({ skill, percentage }) => (
-          <Skill skill={skill} percentage={percentage} />
+        {skills.map(({ skill, percentage }, index) => (
+          <Skill skill={skill} percentage={percentage} key={index}/>
         ))}
       </ul>
     </div>
