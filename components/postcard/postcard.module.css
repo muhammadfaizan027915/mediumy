@@ -29,9 +29,9 @@
   height: 40%;
 }
 
-.detailcontainer .detail > h1 {
+.detailcontainer .detail > h2 {
   font-family: var(--times);
-  font-size: 1.5625rem;
+  font-size: 1.425rem;
   font-weight: bold;
   margin-bottom: 0.8rem;
 }

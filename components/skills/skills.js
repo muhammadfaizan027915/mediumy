@@ -2,7 +2,7 @@ import React from "react";
 import Skill from "../skill/skill";
 import { skills } from "@/locale/skills";
 import Commonlist from "../../common/commonlist/commonlist";
-import Infocontainer from "../infocontainer/infocontainer";
+import Infocontainer from "../../common/infocontainer/infocontainer";
 
 export default function Skills() {
   return (

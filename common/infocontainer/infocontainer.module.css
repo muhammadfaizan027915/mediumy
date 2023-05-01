@@ -1,0 +1,11 @@
+.infoContainer .infoHead {
+  margin-bottom: 0.8rem;
+}
+
+
+@media screen and (max-width: 400px) {
+  .infoHead {
+    align-items: flex-start;
+    flex-flow: column nowrap;
+  }
+}

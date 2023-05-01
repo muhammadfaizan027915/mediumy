@@ -3,10 +3,12 @@ import Bio from "@/components/bio/bio";
 import Skills from "@/components/skills/skills";
 import Container from "@/common/container/container";
 import Splitscreen from "@/common/splitscreen/splitscreen";
-import Profilecontainer from "@/components/profilecontainer/profilecontainer";
+import Workexperience from "@/components/workexperience/workexperience";
 import Certifications from "@/components/certifications/certifications";
+import Profilecontainer from "@/components/profilecontainer/profilecontainer";
 import { certifications } from "@/locale/certifications";
 import { bio } from "@/locale/bio";
+import Projects from "@/components/projects/projects";
 
 export default function Author() {
   return (
@@ -15,6 +17,8 @@ export default function Author() {
       <Splitscreen leftWeight={1} rightWeight={0} gap={"1rem"}>
         <div>
           <Bio bio={bio.bio} experience={bio.experience} />
+          <Workexperience />
+          <Projects />
         </div>
         <div style={{ minWidth: "270px" }}>
           <Skills />

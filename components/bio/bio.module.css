@@ -1,9 +1,4 @@
-.bioHead {
-  margin-bottom: 0.8rem;
-  justify-content: space-between;
-}
-
-.bioHead span {
+.experience {
   padding: 0.4rem 0.5rem;
   font-size: smaller;
   font-weight: 500;
@@ -15,15 +10,11 @@
 .authorBio {
   color: var(--darkgray);
   line-height: 1.25rem;
+  text-align: justify;
 }
 
 @media screen and (max-width: 400px) {
-  .bioHead {
-    align-items: flex-start;
-    flex-flow: column nowrap;
-  }
-
-  .bioHead span{
+  .experience {
     margin-top: 0.2rem;
   }
 }

@@ -9,33 +9,11 @@
   gap: 0.17rem;
 }
 
-.certificationInfo,
-.certificationInfo a {
+.certificationInfo{
   color: var(--darkgray);
 }
 
 .certificationInfo p {
   font-size: 0.8rem;
   word-break: break-word;
-}
-
-.certificationInfo a,
-.certificationInfo a span {
-  font-size: 0.75rem;
-}
-
-.certificationInfo a {
-  gap: 0.2rem;
-  padding:  0.4rem;
-  width: fit-content;
-  border-radius: 1rem;
-  margin-top: calc(0.35rem - 0.2rem);
-  border: 1px solid var(--darkgray);
-}
-
-.certificationInfo a:hover,
-.certificationInfo a:hover .certificationInfo a span {
-  color: var(--black);
-  border-color: var(--black);
-  background-color: var(--lightgray);
 }

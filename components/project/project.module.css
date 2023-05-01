@@ -1,0 +1,12 @@
+.project:not(:first-child) {
+  padding-top: 0.8rem;
+}
+
+.project:not(:last-child) {
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--gray);
+}
+
+.project div:last-child p {
+  margin-top: 0.5rem;
+}

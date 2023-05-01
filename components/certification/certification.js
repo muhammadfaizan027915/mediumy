@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./certification.module.css";
+import Linkbutton from "../linkbutton/linkbutton";
 
 export default function Certification({
   name,
@@ -14,10 +15,7 @@ export default function Certification({
         <p>{issuedBy}</p>
         <span>{`Issued ${issuedOn}`}</span>
         {certificationLink && (
-          <a href={certificationLink} className="flex center align-center" target="_blank">
-            Show credential
-            <span className="material-symbols-outlined">open_in_new</span>
-          </a>
+          <Linkbutton title="show credential" url={certificationLink}/>
         )}
       </div>
     </li>

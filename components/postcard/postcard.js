@@ -29,9 +29,9 @@ export default function Postcard({
         className={`flex spacebetween ${style.detailcontainer} ${contentClass}`}
       >
         <div className={style.detail}>
-          <h1>
+          <h2>
             <Link href="/posts">{title}</Link>
-          </h1>
+          </h2>
           <p>{description}</p>
         </div>
 
