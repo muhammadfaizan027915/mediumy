@@ -1,7 +1,7 @@
 import Hero from "@/components/hreo/hero";
 import Container from "@/common/container/container";
 import Featuredposts from "@/components/featuredposts/featuredposts";
-import style from "../styles/home.module.css";
+import style from "@/styles/home.module.css";
 
 export default function Home() {
   return (

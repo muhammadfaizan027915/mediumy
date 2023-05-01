@@ -2,7 +2,7 @@ import React from "react";
 import { posts } from "@/locale/posts";
 import Postcard from "@/components/postcard/postcard";
 import Container from "@/common/container/container";
-import style from "../styles/posts.module.css";
+import style from "@/styles/posts.module.css";
 
 export default function Posts() {
   return (

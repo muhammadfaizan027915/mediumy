@@ -1,0 +1,50 @@
+.postdetailContainer {
+  padding: 2.5rem 0;
+  width: 85%;
+  flex-flow: column nowrap;
+  gap: 1rem;
+}
+
+.postdetailContainer h1 {
+  font-family: var(--times);
+  font-size: 2.3rem;
+}
+
+.postImage {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.postContent p {
+  font-size: 0.978rem;
+  text-align: justify;
+  line-height: 1.3rem;
+  color: var(--darkgary);
+}
+
+@media screen and (max-width: 1024px) {
+  .postdetailContainer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .postdetailContainer {
+    padding-top: 0;
+  }
+
+  .postImage {
+    max-height: 400px;
+  }
+
+  .postdetailContainer h1{
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .postImage {
+    max-height: 300px;
+  }
+}

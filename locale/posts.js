@@ -28,7 +28,7 @@ export const posts = [
       image: "https://media.licdn.com/dms/image/D4E03AQHdVksxjxRYkw/profile-displayphoto-shrink_800_800/0/1677697215090?e=1687996800&v=beta&t=zgyXeHFfFPXFbWbNG5o-ihWh6kKnTZptVxOFzdjpk7I",
     },
 
-    title: "How to make a react application ?",
+    title: "How to repent from past sins and haram relatationshtips and get married soon?",
     description:
       "Let's create a react application, you will learn how to create an attractive and responsive webpages in react js.",
 

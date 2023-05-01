@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Commonlist({ children }) {
-  return <ul>{children}</ul>;
+export default function Commonlist({ children, className }) {
+  return <ul className={className}>{children}</ul>;
 }
