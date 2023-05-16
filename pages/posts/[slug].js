@@ -7,11 +7,11 @@ import Sharepost from "@/components/sharepost/sharepost";
 export default function Slug() {
   return (
     <Container>
-      <Splitscreen leftWeight={2} rightWeight={10} gap="1rem">
-        <div className="flex left" >
+      <Splitscreen rightWeight={3}>
+        <div className="flex" >
           <Sharepost />
         </div>
-        <div className="flex ">
+        <div className="flex center" >
           <Postdetail />
         </div>
       </Splitscreen>

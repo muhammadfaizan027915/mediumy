@@ -8,7 +8,7 @@ export default function Sharepost() {
     const URL = generateSharingURL[target.name](
       encodeURIComponent(document.URL)
     );
-
+    
     window.open(URL, "_blank");
   };
   return (
