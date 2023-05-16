@@ -67,6 +67,7 @@ Styling buttons
   height: 20px;
   padding: 0.8rem;
   font-size: 1rem;
+  box-shadow: 0 3px 7px var(--lightgray);
 }
 
 .postsAndPosts div > p {
